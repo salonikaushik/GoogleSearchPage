@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoogleHomePage</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Gmail</a></li>
+          <li><a href="#">Images</a></li>
+          <li><i class="material-icons">&#xe5c3;</i></li>
+          <li id="button"><a href="#">Sign In</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="section-1">
+        <img
+          src="Images/google.jpeg"
+          alt="google"
+          height="150px"
+          width="390px"
+        />
+        <div class="search1">
+          <form id="form" autocomplete="off">
+            <input
+              type="text"
+              placeholder="Search Google or type a URL"
+              id="search"
+              class="form-control"
+            />
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+          <div id="result"></div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="JS/index.js"></script>
+</html>
